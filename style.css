@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Cal Sans, Bahnschrift,Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Gill Sans MT';
+  font-family: Cal Sans, 'Gill Sans MT';
   background: linear-gradient(0deg, rgb(81, 21, 123) 0%, #341350 50%, #1a092a 100%);
 
 
@@ -250,7 +250,7 @@ nav a:hover {
 
 .about {
   height: 500px;
-  width: 500px;
+  width: 350px;
   font-size: 20px;
 
 }
@@ -270,7 +270,7 @@ nav a:hover {
 }
 
 .logo-third img {
-  width: 350px;
+  width: 380px;
   display: block;
   margin: auto;
 }
@@ -282,7 +282,7 @@ nav a:hover {
 
 .research {
 
-  height: 250px;
+  height: 350px;
   width: 500px;
 
 
@@ -297,7 +297,7 @@ nav a:hover {
 
 .tiny {
 
-  height: 80px;
+  height: 90px;
   width: 500%;
   margin: 20px;
   padding: 20px;
@@ -509,7 +509,7 @@ nav a:hover {
 .eight {
   margin-top: 20px;
   border-radius: 20px;
-  height: 1700px;
+  height: 3500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -564,8 +564,8 @@ nav a:hover {
 .eight-out {
   background-color: #dbd6e3;
   margin-top: 60px;
-  height: 920px;
-  width: 310px;
+  height: 1352px;
+  width: 350px;
   border-radius: 10px;    
   text-align: left;
   padding: 25px;
@@ -579,13 +579,37 @@ nav a:hover {
 
 .google-rate{
   height:100px;
-  width: 630px;
-
-
-
+  width: 500px;
+  display:flex;
+  justify-content: center;
 }
+
 .google-rate img{
-  height: 100px;
+  margin-top: 10px;
+  height: 90px;
+}
+
+.eight-cards {
+  margin-top: 30px;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:10px;
+}
+
+.eight-card {
+  height: 350px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: white;
+  gap:10px;
+  padding:50px;
+}
+.eight-card img{
+  height: 20px;
 }
 
 
@@ -648,6 +672,13 @@ nav a:hover {
     height: 600px;
     padding: 30px;
   }
+
+  .about {
+  height: 500px;
+  width: 500px;
+  font-size: 20px;
+
+}
 
   .logo-third img {
 
@@ -729,6 +760,11 @@ nav a:hover {
   .placement-image h2 {
     color: #7302b4;
   }
+  
+  .eight {
+  height: 1200px;
+
+}
 
   .eight-in {
     height: 200px;
@@ -748,7 +784,7 @@ nav a:hover {
   }
  
   .eight-out {
-    height: 200px;
+    height: 700px;
     width: 1170px;
     text-align: left;
     padding: 25px;
@@ -762,4 +798,8 @@ nav a:hover {
     align-items: center;
     justify-content: right;
   }
+
+  .google-rate img{
+  height: 100px;
+}
 }
